@@ -1,0 +1,35 @@
+Symbol range map extraction starting
+Processing 11 files
+startProcessing "trueForce\polearms\EventHandler.java" md5: eeee4ce22ed29876550fa577db274097
+endProcessing "trueForce\polearms\EventHandler.java"
+
+startProcessing "trueForce\polearms\Polearms.java" md5: b52046758d08b9d86427c8949b4432f7
+endProcessing "trueForce\polearms\Polearms.java"
+
+startProcessing "trueForce\polearms\client\render\items\ItemRenderRegister.java" md5: 114948b46dcfbdc0d7a2b46c4a82a5df
+endProcessing "trueForce\polearms\client\render\items\ItemRenderRegister.java"
+
+startProcessing "trueForce\polearms\item\IExtendedReach.java" md5: 49e00958d36e0134f3594df32e1c86e5
+endProcessing "trueForce\polearms\item\IExtendedReach.java"
+
+startProcessing "trueForce\polearms\item\ModItems.java" md5: c414d8aa1b9c1ca74d435758040621fa
+endProcessing "trueForce\polearms\item\ModItems.java"
+
+startProcessing "trueForce\polearms\item\PARecipes.java" md5: fff3677093c5171880afa55760bac9bb
+endProcessing "trueForce\polearms\item\PARecipes.java"
+
+startProcessing "trueForce\polearms\item\Pole.java" md5: e991fd7cfbb0a55a9557347b15ca3a20
+endProcessing "trueForce\polearms\item\Pole.java"
+
+startProcessing "trueForce\polearms\item\Spear.java" md5: 686fd2c9a242b58c30bf2932fbdfb402
+endProcessing "trueForce\polearms\item\Spear.java"
+
+startProcessing "trueForce\polearms\network\MessageExtendedReachAttack.java" md5: f18a99df35eaffaeb6fd99d8c6bddfcd
+endProcessing "trueForce\polearms\network\MessageExtendedReachAttack.java"
+
+startProcessing "trueForce\polearms\proxy\ClientProxy.java" md5: 7f63efce608f28b06e2196fc2762693d
+endProcessing "trueForce\polearms\proxy\ClientProxy.java"
+
+startProcessing "trueForce\polearms\proxy\CommonProxy.java" md5: b321494c9cb7953cf9d23c00437bce2f
+endProcessing "trueForce\polearms\proxy\CommonProxy.java"
+

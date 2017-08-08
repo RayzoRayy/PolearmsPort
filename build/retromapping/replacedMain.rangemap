@@ -1,0 +1,678 @@
+Symbol range map extraction starting
+Processing 11 files
+startProcessing "trueForce\polearms\EventHandler.java" md5: eeee4ce22ed29876550fa577db274097
+@|trueForce\polearms\EventHandler.java|8|26|trueForce.polearms|package|trueForce.polearms|(file)
+Class Start: trueForce.polearms.EventHandler
+   @|trueForce\polearms\EventHandler.java|804|816|EventHandler|class|trueForce.polearms.EventHandler
+   Method Start: onEvent(Lnet/minecraftforge/client/event/MouseEvent;)V
+      @|trueForce\polearms\EventHandler.java|955|960|event|param|trueForce.polearms.EventHandler|onEvent|(Lnet/minecraftforge/client/event/MouseEvent;)V|event|0
+      @|trueForce\polearms\EventHandler.java|825|833|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|trueForce\polearms\EventHandler.java|834|838|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|trueForce\polearms\EventHandler.java|839|845|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|trueForce\polearms\EventHandler.java|852|866|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|trueForce\polearms\EventHandler.java|867|875|priority|method|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|priority|()Lnet/minecraftforge/fml/common/eventhandler/EventPriority;
+      @|trueForce\polearms\EventHandler.java|876|889|EventPriority|class|net.minecraftforge.fml.common.eventhandler.EventPriority
+      @|trueForce\polearms\EventHandler.java|890|896|NORMAL|field|net.minecraftforge.fml.common.eventhandler.EventPriority|NORMAL
+      @|trueForce\polearms\EventHandler.java|898|913|receiveCanceled|method|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|receiveCanceled|()Z
+      @|trueForce\polearms\EventHandler.java|936|943|onEvent|method|trueForce.polearms.EventHandler|onEvent|(Lnet/minecraftforge/client/event/MouseEvent;)V
+      @|trueForce\polearms\EventHandler.java|944|954|MouseEvent|class|net.minecraftforge.client.event.MouseEvent
+      @|trueForce\polearms\EventHandler.java|980|985|event|param|trueForce.polearms.EventHandler|onEvent|(Lnet/minecraftforge/client/event/MouseEvent;)V|event|0
+      @|trueForce\polearms\EventHandler.java|986|995|getButton|method|net.minecraftforge.client.event.MouseEvent|getButton|()I
+      @|trueForce\polearms\EventHandler.java|1006|1011|event|param|trueForce.polearms.EventHandler|onEvent|(Lnet/minecraftforge/client/event/MouseEvent;)V|event|0
+      @|trueForce\polearms\EventHandler.java|1012|1025|isButtonstate|method|net.minecraftforge.client.event.MouseEvent|isButtonstate|()Z
+      @|trueForce\polearms\EventHandler.java|1051|1060|Minecraft|class|net.minecraft.client.Minecraft
+      @|trueForce\polearms\EventHandler.java|1066|1075|Minecraft|class|net.minecraft.client.Minecraft
+      @|trueForce\polearms\EventHandler.java|1076|1088|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|trueForce\polearms\EventHandler.java|1104|1116|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|trueForce\polearms\EventHandler.java|1132|1138|player|field|net.minecraft.client.Minecraft|player
+      @|trueForce\polearms\EventHandler.java|1205|1214|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\EventHandler.java|1237|1256|getHeldItemMainhand|method|net.minecraft.entity.EntityLivingBase|getHeldItemMainhand|()Lnet/minecraft/item/ItemStack;
+      @|trueForce\polearms\EventHandler.java|1276|1290|IExtendedReach|class|trueForce.polearms.item.IExtendedReach
+      @|trueForce\polearms\EventHandler.java|1388|1395|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|trueForce\polearms\EventHandler.java|1409|1423|IExtendedReach|class|trueForce.polearms.item.IExtendedReach
+      @|trueForce\polearms\EventHandler.java|1479|1493|IExtendedReach|class|trueForce.polearms.item.IExtendedReach
+      @|trueForce\polearms\EventHandler.java|1505|1512|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|trueForce\polearms\EventHandler.java|1728|1736|getReach|method|trueForce.polearms.item.IExtendedReach|getReach|()F
+      @|trueForce\polearms\EventHandler.java|1764|1778|RayTraceResult|class|net.minecraft.util.math.RayTraceResult
+      @|trueForce\polearms\EventHandler.java|1785|1805|getMouseOverExtended|method|trueForce.polearms.EventHandler|getMouseOverExtended|(F)Lnet/minecraft/util/math/RayTraceResult;
+      @|trueForce\polearms\EventHandler.java|1918|1927|entityHit|field|net.minecraft.util.math.RayTraceResult|entityHit
+      @|trueForce\polearms\EventHandler.java|1943|1952|entityHit|field|net.minecraft.util.math.RayTraceResult|entityHit
+      @|trueForce\polearms\EventHandler.java|1953|1970|hurtResistantTime|field|net.minecraft.entity.Entity|hurtResistantTime
+      @|trueForce\polearms\EventHandler.java|2047|2056|entityHit|field|net.minecraft.util.math.RayTraceResult|entityHit
+      @|trueForce\polearms\EventHandler.java|2142|2150|Polearms|class|trueForce.polearms.Polearms
+      @|trueForce\polearms\EventHandler.java|2151|2158|network|field|trueForce.polearms.Polearms|network
+      @|trueForce\polearms\EventHandler.java|2159|2171|sendToServer|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendToServer|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;)V
+      @|trueForce\polearms\EventHandler.java|2176|2202|MessageExtendedReachAttack|class|trueForce.polearms.network.MessageExtendedReachAttack
+      @|trueForce\polearms\EventHandler.java|2252|2261|entityHit|field|net.minecraft.util.math.RayTraceResult|entityHit
+      @|trueForce\polearms\EventHandler.java|2262|2273|getEntityId|method|net.minecraft.entity.Entity|getEntityId|()I
+   Method End: onEvent(Lnet/minecraftforge/client/event/MouseEvent;)V
+   Method Start: getMouseOverExtended(F)Lnet/minecraft/util/math/RayTraceResult;
+      @|trueForce\polearms\EventHandler.java|2575|2579|dist|param|trueForce.polearms.EventHandler|getMouseOverExtended|(F)Lnet/minecraft/util/math/RayTraceResult;|dist|0
+      @|trueForce\polearms\EventHandler.java|2533|2547|RayTraceResult|class|net.minecraft.util.math.RayTraceResult
+      @|trueForce\polearms\EventHandler.java|2548|2568|getMouseOverExtended|method|trueForce.polearms.EventHandler|getMouseOverExtended|(F)Lnet/minecraft/util/math/RayTraceResult;
+      @|trueForce\polearms\EventHandler.java|2595|2604|Minecraft|class|net.minecraft.client.Minecraft
+      @|trueForce\polearms\EventHandler.java|2610|2626|FMLClientHandler|class|net.minecraftforge.fml.client.FMLClientHandler
+      @|trueForce\polearms\EventHandler.java|2627|2635|instance|method|net.minecraftforge.fml.client.FMLClientHandler|instance|()Lnet/minecraftforge/fml/client/FMLClientHandler;
+      @|trueForce\polearms\EventHandler.java|2638|2647|getClient|method|net.minecraftforge.fml.client.FMLClientHandler|getClient|()Lnet/minecraft/client/Minecraft;
+      @|trueForce\polearms\EventHandler.java|2659|2665|Entity|class|net.minecraft.entity.Entity
+      @|trueForce\polearms\EventHandler.java|2691|2710|getRenderViewEntity|method|net.minecraft.client.Minecraft|getRenderViewEntity|()Lnet/minecraft/entity/Entity;
+      @|trueForce\polearms\EventHandler.java|2722|2735|AxisAlignedBB|class|net.minecraft.util.math.AxisAlignedBB
+      @|trueForce\polearms\EventHandler.java|2761|2774|AxisAlignedBB|class|net.minecraft.util.math.AxisAlignedBB
+      @|trueForce\polearms\EventHandler.java|2812|2816|posX|field|net.minecraft.entity.Entity|posX
+      @|trueForce\polearms\EventHandler.java|2859|2863|posY|field|net.minecraft.entity.Entity|posY
+      @|trueForce\polearms\EventHandler.java|2906|2910|posZ|field|net.minecraft.entity.Entity|posZ
+      @|trueForce\polearms\EventHandler.java|2953|2957|posX|field|net.minecraft.entity.Entity|posX
+      @|trueForce\polearms\EventHandler.java|3000|3004|posY|field|net.minecraft.entity.Entity|posY
+      @|trueForce\polearms\EventHandler.java|3047|3051|posZ|field|net.minecraft.entity.Entity|posZ
+      @|trueForce\polearms\EventHandler.java|3076|3090|RayTraceResult|class|net.minecraft.util.math.RayTraceResult
+      @|trueForce\polearms\EventHandler.java|3124|3129|world|field|net.minecraft.client.Minecraft|world
+      @|trueForce\polearms\EventHandler.java|3175|3179|dist|param|trueForce.polearms.EventHandler|getMouseOverExtended|(F)Lnet/minecraft/util/math/RayTraceResult;|dist|0
+      @|trueForce\polearms\EventHandler.java|3225|3233|rayTrace|method|net.minecraft.entity.Entity|rayTrace|(DF)Lnet/minecraft/util/math/RayTraceResult;
+      @|trueForce\polearms\EventHandler.java|3292|3297|Vec3d|class|net.minecraft.util.math.Vec3d
+      @|trueForce\polearms\EventHandler.java|3324|3339|getPositionEyes|method|net.minecraft.entity.Entity|getPositionEyes|(F)Lnet/minecraft/util/math/Vec3d;
+      @|trueForce\polearms\EventHandler.java|3459|3465|hitVec|field|net.minecraft.util.math.RayTraceResult|hitVec
+      @|trueForce\polearms\EventHandler.java|3466|3476|distanceTo|method|net.minecraft.util.math.Vec3d|distanceTo|(Lnet/minecraft/util/math/Vec3d;)D
+      @|trueForce\polearms\EventHandler.java|3510|3515|Vec3d|class|net.minecraft.util.math.Vec3d
+      @|trueForce\polearms\EventHandler.java|3546|3553|getLook|method|net.minecraft.entity.Entity|getLook|(F)Lnet/minecraft/util/math/Vec3d;
+      @|trueForce\polearms\EventHandler.java|3570|3575|Vec3d|class|net.minecraft.util.math.Vec3d
+      @|trueForce\polearms\EventHandler.java|3587|3596|addVector|method|net.minecraft.util.math.Vec3d|addVector|(DDD)Lnet/minecraft/util/math/Vec3d;
+      @|trueForce\polearms\EventHandler.java|3605|3611|xCoord|field|net.minecraft.util.math.Vec3d|xCoord
+      @|trueForce\polearms\EventHandler.java|3648|3654|yCoord|field|net.minecraft.util.math.Vec3d|yCoord
+      @|trueForce\polearms\EventHandler.java|3691|3697|zCoord|field|net.minecraft.util.math.Vec3d|zCoord
+      @|trueForce\polearms\EventHandler.java|3719|3725|Entity|class|net.minecraft.entity.Entity
+      @|trueForce\polearms\EventHandler.java|3792|3808|SuppressWarnings|class|java.lang.SuppressWarnings
+      @|trueForce\polearms\EventHandler.java|3834|3838|List|class|java.util.List
+      @|trueForce\polearms\EventHandler.java|3839|3845|Entity|class|net.minecraft.entity.Entity
+      @|trueForce\polearms\EventHandler.java|3857|3862|world|field|net.minecraft.client.Minecraft|world
+      @|trueForce\polearms\EventHandler.java|3863|3899|getEntitiesWithinAABBExcludingEntity|method|net.minecraft.world.World|getEntitiesWithinAABBExcludingEntity|(Lnet/minecraft/entity/Entity;Lnet/minecraft/util/math/AxisAlignedBB;)Ljava/util/List;
+      @|trueForce\polearms\EventHandler.java|3981|3989|addCoord|method|net.minecraft.util.math.AxisAlignedBB|addCoord|(DDD)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|trueForce\polearms\EventHandler.java|4027|4033|xCoord|field|net.minecraft.util.math.Vec3d|xCoord
+      @|trueForce\polearms\EventHandler.java|4078|4084|yCoord|field|net.minecraft.util.math.Vec3d|yCoord
+      @|trueForce\polearms\EventHandler.java|4129|4135|zCoord|field|net.minecraft.util.math.Vec3d|zCoord
+      @|trueForce\polearms\EventHandler.java|4144|4150|expand|method|net.minecraft.util.math.AxisAlignedBB|expand|(DDD)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|trueForce\polearms\EventHandler.java|4222|4228|Entity|class|net.minecraft.entity.Entity
+      @|trueForce\polearms\EventHandler.java|4285|4302|canBeCollidedWith|method|net.minecraft.entity.Entity|canBeCollidedWith|()Z
+      @|trueForce\polearms\EventHandler.java|4370|4392|getCollisionBorderSize|method|net.minecraft.entity.Entity|getCollisionBorderSize|()F
+      @|trueForce\polearms\EventHandler.java|4416|4429|AxisAlignedBB|class|net.minecraft.util.math.AxisAlignedBB
+      @|trueForce\polearms\EventHandler.java|4441|4454|AxisAlignedBB|class|net.minecraft.util.math.AxisAlignedBB
+      @|trueForce\polearms\EventHandler.java|4491|4495|posX|field|net.minecraft.entity.Entity|posX
+      @|trueForce\polearms\EventHandler.java|4503|4508|width|field|net.minecraft.entity.Entity|width
+      @|trueForce\polearms\EventHandler.java|4547|4551|posY|field|net.minecraft.entity.Entity|posY
+      @|trueForce\polearms\EventHandler.java|4588|4592|posZ|field|net.minecraft.entity.Entity|posZ
+      @|trueForce\polearms\EventHandler.java|4600|4605|width|field|net.minecraft.entity.Entity|width
+      @|trueForce\polearms\EventHandler.java|4644|4648|posX|field|net.minecraft.entity.Entity|posX
+      @|trueForce\polearms\EventHandler.java|4656|4661|width|field|net.minecraft.entity.Entity|width
+      @|trueForce\polearms\EventHandler.java|4700|4704|posY|field|net.minecraft.entity.Entity|posY
+      @|trueForce\polearms\EventHandler.java|4712|4718|height|field|net.minecraft.entity.Entity|height
+      @|trueForce\polearms\EventHandler.java|4755|4759|posZ|field|net.minecraft.entity.Entity|posZ
+      @|trueForce\polearms\EventHandler.java|4767|4772|width|field|net.minecraft.entity.Entity|width
+      @|trueForce\polearms\EventHandler.java|4802|4808|expand|method|net.minecraft.util.math.AxisAlignedBB|expand|(DDD)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|trueForce\polearms\EventHandler.java|4866|4880|RayTraceResult|class|net.minecraft.util.math.RayTraceResult
+      @|trueForce\polearms\EventHandler.java|4893|4911|calculateIntercept|method|net.minecraft.util.math.AxisAlignedBB|calculateIntercept|(Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/RayTraceResult;
+      @|trueForce\polearms\EventHandler.java|4954|4965|isVecInside|method|net.minecraft.util.math.AxisAlignedBB|isVecInside|(Lnet/minecraft/util/math/Vec3d;)Z
+      @|trueForce\polearms\EventHandler.java|5294|5304|distanceTo|method|net.minecraft.util.math.Vec3d|distanceTo|(Lnet/minecraft/util/math/Vec3d;)D
+      @|trueForce\polearms\EventHandler.java|5310|5316|hitVec|field|net.minecraft.util.math.RayTraceResult|hitVec
+      @|trueForce\polearms\EventHandler.java|5688|5702|RayTraceResult|class|net.minecraft.util.math.RayTraceResult
+   Method End: getMouseOverExtended(F)Lnet/minecraft/util/math/RayTraceResult;
+Class End  : trueForce.polearms.EventHandler
+endProcessing "trueForce\polearms\EventHandler.java"
+
+startProcessing "trueForce\polearms\Polearms.java" md5: b52046758d08b9d86427c8949b4432f7
+@|trueForce\polearms\Polearms.java|8|26|trueForce.polearms|package|trueForce.polearms|(file)
+Class Start: trueForce.polearms.Polearms
+   @|trueForce\polearms\Polearms.java|694|697|Mod|class|net.minecraftforge.fml.common.Mod
+   @|trueForce\polearms\Polearms.java|698|703|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|trueForce\polearms\Polearms.java|706|714|Polearms|class|trueForce.polearms.Polearms
+   @|trueForce\polearms\Polearms.java|715|720|MODID|field|trueForce.polearms.Polearms|MODID
+   @|trueForce\polearms\Polearms.java|722|726|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|trueForce\polearms\Polearms.java|729|737|Polearms|class|trueForce.polearms.Polearms
+   @|trueForce\polearms\Polearms.java|738|745|MODNAME|field|trueForce.polearms.Polearms|MODNAME
+   @|trueForce\polearms\Polearms.java|747|754|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|trueForce\polearms\Polearms.java|757|765|Polearms|class|trueForce.polearms.Polearms
+   @|trueForce\polearms\Polearms.java|766|773|VERSION|field|trueForce.polearms.Polearms|VERSION
+   @|trueForce\polearms\Polearms.java|775|800|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
+   @|trueForce\polearms\Polearms.java|803|811|Polearms|class|trueForce.polearms.Polearms
+   @|trueForce\polearms\Polearms.java|812|822|MC_VERSION|field|trueForce.polearms.Polearms|MC_VERSION
+   @|trueForce\polearms\Polearms.java|837|845|Polearms|class|trueForce.polearms.Polearms
+   @|trueForce\polearms\Polearms.java|871|877|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|871|877|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|878|883|MODID|field|trueForce.polearms.Polearms|MODID|
+   @|trueForce\polearms\Polearms.java|919|925|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|919|925|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|926|932|DOMAIN|field|trueForce.polearms.Polearms|DOMAIN|
+   @|trueForce\polearms\Polearms.java|968|974|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|968|974|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|975|982|MODNAME|field|trueForce.polearms.Polearms|MODNAME|
+   @|trueForce\polearms\Polearms.java|1018|1024|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|1018|1024|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|1025|1032|VERSION|field|trueForce.polearms.Polearms|VERSION|
+   @|trueForce\polearms\Polearms.java|1063|1069|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|1063|1069|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|1070|1080|MC_VERSION|field|trueForce.polearms.Polearms|MC_VERSION|
+   @|trueForce\polearms\Polearms.java|1114|1120|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|1114|1120|String|class|java.lang.String
+   @|trueForce\polearms\Polearms.java|1121|1141|NETWORK_CHANNEL_NAME|field|trueForce.polearms.Polearms|NETWORK_CHANNEL_NAME|
+   @|trueForce\polearms\Polearms.java|1183|1191|Polearms|class|trueForce.polearms.Polearms
+   @|trueForce\polearms\Polearms.java|1159|1167|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|trueForce\polearms\Polearms.java|1183|1191|Polearms|class|trueForce.polearms.Polearms
+   @|trueForce\polearms\Polearms.java|1192|1200|instance|field|trueForce.polearms.Polearms|instance|
+   @|trueForce\polearms\Polearms.java|1207|1215|Polearms|class|trueForce.polearms.Polearms
+   @|trueForce\polearms\Polearms.java|1355|1366|CommonProxy|class|trueForce.polearms.proxy.CommonProxy
+   @|trueForce\polearms\Polearms.java|1223|1233|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|trueForce\polearms\Polearms.java|1234|1244|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|trueForce\polearms\Polearms.java|1287|1297|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|trueForce\polearms\Polearms.java|1355|1366|CommonProxy|class|trueForce.polearms.proxy.CommonProxy
+   @|trueForce\polearms\Polearms.java|1367|1372|proxy|field|trueForce.polearms.Polearms|proxy|
+   @|trueForce\polearms\Polearms.java|1391|1397|Logger|class|org.apache.logging.log4j.Logger
+   @|trueForce\polearms\Polearms.java|1391|1397|Logger|class|org.apache.logging.log4j.Logger
+   @|trueForce\polearms\Polearms.java|1398|1404|logger|field|trueForce.polearms.Polearms|logger|
+   @|trueForce\polearms\Polearms.java|1407|1417|LogManager|class|org.apache.logging.log4j.LogManager
+   @|trueForce\polearms\Polearms.java|1418|1427|getLogger|method|org.apache.logging.log4j.LogManager|getLogger|(Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;
+   @|trueForce\polearms\Polearms.java|1428|1433|MODID|field|trueForce.polearms.Polearms|MODID
+   @|trueForce\polearms\Polearms.java|1453|1473|SimpleNetworkWrapper|class|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+   @|trueForce\polearms\Polearms.java|1453|1473|SimpleNetworkWrapper|class|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+   @|trueForce\polearms\Polearms.java|1474|1481|network|field|trueForce.polearms.Polearms|network|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trueForce\polearms\Polearms.java|1547|1548|e|param|trueForce.polearms.Polearms|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|trueForce\polearms\Polearms.java|1487|1499|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|trueForce\polearms\Polearms.java|1513|1520|preInit|method|trueForce.polearms.Polearms|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trueForce\polearms\Polearms.java|1521|1546|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|trueForce\polearms\Polearms.java|1554|1559|proxy|field|trueForce.polearms.Polearms|proxy
+      @|trueForce\polearms\Polearms.java|1560|1567|preInit|method|trueForce.polearms.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trueForce\polearms\Polearms.java|1568|1569|e|param|trueForce.polearms.Polearms|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trueForce\polearms\Polearms.java|1633|1634|e|param|trueForce.polearms.Polearms|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|trueForce\polearms\Polearms.java|1579|1591|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|trueForce\polearms\Polearms.java|1605|1609|init|method|trueForce.polearms.Polearms|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trueForce\polearms\Polearms.java|1610|1632|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|trueForce\polearms\Polearms.java|1643|1657|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|trueForce\polearms\Polearms.java|1658|1667|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|trueForce\polearms\Polearms.java|1668|1676|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|trueForce\polearms\Polearms.java|1677|1685|instance|field|trueForce.polearms.Polearms|instance
+      @|trueForce\polearms\Polearms.java|1690|1695|proxy|field|trueForce.polearms.Polearms|proxy
+      @|trueForce\polearms\Polearms.java|1696|1700|init|method|trueForce.polearms.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trueForce\polearms\Polearms.java|1701|1702|e|param|trueForce.polearms.Polearms|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trueForce\polearms\Polearms.java|1774|1775|e|param|trueForce.polearms.Polearms|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+      @|trueForce\polearms\Polearms.java|1712|1724|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|trueForce\polearms\Polearms.java|1738|1746|postInit|method|trueForce.polearms.Polearms|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trueForce\polearms\Polearms.java|1747|1773|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|trueForce\polearms\Polearms.java|1781|1786|proxy|field|trueForce.polearms.Polearms|proxy
+      @|trueForce\polearms\Polearms.java|1787|1795|postInit|method|trueForce.polearms.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trueForce\polearms\Polearms.java|1796|1797|e|param|trueForce.polearms.Polearms|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : trueForce.polearms.Polearms
+endProcessing "trueForce\polearms\Polearms.java"
+
+startProcessing "trueForce\polearms\client\render\items\ItemRenderRegister.java" md5: 114948b46dcfbdc0d7a2b46c4a82a5df
+@|trueForce\polearms\client\render\items\ItemRenderRegister.java|8|46|trueForce.polearms.client.render.items|package|trueForce.polearms.client.render.items|(file)
+Class Start: trueForce.polearms.client.render.items.ItemRenderRegister
+   @|trueForce\polearms\client\render\items\ItemRenderRegister.java|216|234|ItemRenderRegister|class|trueForce.polearms.client.render.items.ItemRenderRegister
+   Method Start: registerItemRenderer()V
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|260|280|registerItemRenderer|method|trueForce.polearms.client.render.items.ItemRenderRegister|registerItemRenderer|()V
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|293|302|Minecraft|class|net.minecraft.client.Minecraft
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|303|315|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|318|331|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|334|352|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|372|380|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|381|389|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|390|399|woodSpear|field|trueForce.polearms.item.ModItems|woodSpear
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|400|407|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|418|439|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|486|495|Minecraft|class|net.minecraft.client.Minecraft
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|496|508|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|511|524|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|527|545|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|565|573|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|574|582|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|583|593|stoneSpear|field|trueForce.polearms.item.ModItems|stoneSpear
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|594|601|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|612|633|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|681|690|Minecraft|class|net.minecraft.client.Minecraft
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|691|703|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|706|719|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|722|740|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|760|768|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|769|777|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|778|787|ironSpear|field|trueForce.polearms.item.ModItems|ironSpear
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|788|795|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|806|827|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|874|883|Minecraft|class|net.minecraft.client.Minecraft
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|884|896|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|899|912|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|915|933|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|953|961|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|962|970|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|971|980|goldSpear|field|trueForce.polearms.item.ModItems|goldSpear
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|981|988|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|999|1020|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1067|1076|Minecraft|class|net.minecraft.client.Minecraft
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1077|1089|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1092|1105|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1108|1126|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1146|1154|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1155|1163|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1164|1176|diamondSpear|field|trueForce.polearms.item.ModItems|diamondSpear
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1177|1184|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1195|1216|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1266|1275|Minecraft|class|net.minecraft.client.Minecraft
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1276|1288|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1291|1304|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1307|1325|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1345|1353|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1354|1362|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1363|1367|pole|field|trueForce.polearms.item.ModItems|pole
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1368|1375|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|trueForce\polearms\client\render\items\ItemRenderRegister.java|1386|1407|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+   Method End: registerItemRenderer()V
+Class End  : trueForce.polearms.client.render.items.ItemRenderRegister
+endProcessing "trueForce\polearms\client\render\items\ItemRenderRegister.java"
+
+startProcessing "trueForce\polearms\item\IExtendedReach.java" md5: 49e00958d36e0134f3594df32e1c86e5
+@|trueForce\polearms\item\IExtendedReach.java|8|31|trueForce.polearms.item|package|trueForce.polearms.item|(file)
+Class Start: trueForce.polearms.item.IExtendedReach
+   @|trueForce\polearms\item\IExtendedReach.java|51|65|IExtendedReach|class|trueForce.polearms.item.IExtendedReach
+   Method Start: getReach()F
+      @|trueForce\polearms\item\IExtendedReach.java|201|209|getReach|method|trueForce.polearms.item.IExtendedReach|getReach|()F
+   Method End: getReach()F
+Class End  : trueForce.polearms.item.IExtendedReach
+endProcessing "trueForce\polearms\item\IExtendedReach.java"
+
+startProcessing "trueForce\polearms\item\ModItems.java" md5: c414d8aa1b9c1ca74d435758040621fa
+@|trueForce\polearms\item\ModItems.java|8|31|trueForce.polearms.item|package|trueForce.polearms.item|(file)
+Class Start: trueForce.polearms.item.ModItems
+   @|trueForce\polearms\item\ModItems.java|476|484|ModItems|class|trueForce.polearms.item.ModItems
+   @|trueForce\polearms\item\ModItems.java|504|508|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|504|508|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|509|522|itemIronSpear|field|trueForce.polearms.item.ModItems|itemIronSpear|
+   @|trueForce\polearms\item\ModItems.java|529|534|Spear|class|trueForce.polearms.item.Spear
+   @|trueForce\polearms\item\ModItems.java|549|561|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|trueForce\polearms\item\ModItems.java|562|566|IRON|field|net.minecraft.item.Item.ToolMaterial|IRON
+   @|trueForce\polearms\item\ModItems.java|585|589|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|585|589|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|590|603|itemWoodSpear|field|trueForce.polearms.item.ModItems|itemWoodSpear|
+   @|trueForce\polearms\item\ModItems.java|610|615|Spear|class|trueForce.polearms.item.Spear
+   @|trueForce\polearms\item\ModItems.java|630|642|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|trueForce\polearms\item\ModItems.java|643|647|WOOD|field|net.minecraft.item.Item.ToolMaterial|WOOD
+   @|trueForce\polearms\item\ModItems.java|666|670|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|666|670|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|671|685|itemStoneSpear|field|trueForce.polearms.item.ModItems|itemStoneSpear|
+   @|trueForce\polearms\item\ModItems.java|692|697|Spear|class|trueForce.polearms.item.Spear
+   @|trueForce\polearms\item\ModItems.java|713|725|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|trueForce\polearms\item\ModItems.java|726|731|STONE|field|net.minecraft.item.Item.ToolMaterial|STONE
+   @|trueForce\polearms\item\ModItems.java|750|754|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|750|754|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|755|771|itemDiamondSpear|field|trueForce.polearms.item.ModItems|itemDiamondSpear|
+   @|trueForce\polearms\item\ModItems.java|778|783|Spear|class|trueForce.polearms.item.Spear
+   @|trueForce\polearms\item\ModItems.java|801|813|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|trueForce\polearms\item\ModItems.java|814|821|DIAMOND|field|net.minecraft.item.Item.ToolMaterial|DIAMOND
+   @|trueForce\polearms\item\ModItems.java|840|844|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|840|844|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|845|858|itemGoldSpear|field|trueForce.polearms.item.ModItems|itemGoldSpear|
+   @|trueForce\polearms\item\ModItems.java|865|870|Spear|class|trueForce.polearms.item.Spear
+   @|trueForce\polearms\item\ModItems.java|885|897|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|trueForce\polearms\item\ModItems.java|898|902|GOLD|field|net.minecraft.item.Item.ToolMaterial|GOLD
+   @|trueForce\polearms\item\ModItems.java|921|925|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|921|925|Item|class|net.minecraft.item.Item
+   @|trueForce\polearms\item\ModItems.java|926|934|itemPole|field|trueForce.polearms.item.ModItems|itemPole|
+   @|trueForce\polearms\item\ModItems.java|941|945|Pole|class|trueForce.polearms.item.Pole
+   @|trueForce\polearms\item\ModItems.java|971|980|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|971|980|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|981|985|pole|field|trueForce.polearms.item.ModItems|pole|
+   @|trueForce\polearms\item\ModItems.java|1002|1011|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|1002|1011|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|1012|1024|diamondSpear|field|trueForce.polearms.item.ModItems|diamondSpear|
+   @|trueForce\polearms\item\ModItems.java|1041|1050|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|1041|1050|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|1051|1060|goldSpear|field|trueForce.polearms.item.ModItems|goldSpear|
+   @|trueForce\polearms\item\ModItems.java|1077|1086|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|1077|1086|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|1087|1096|ironSpear|field|trueForce.polearms.item.ModItems|ironSpear|
+   @|trueForce\polearms\item\ModItems.java|1113|1122|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|1113|1122|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|1123|1133|stoneSpear|field|trueForce.polearms.item.ModItems|stoneSpear|
+   @|trueForce\polearms\item\ModItems.java|1150|1159|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|1150|1159|ItemStack|class|net.minecraft.item.ItemStack
+   @|trueForce\polearms\item\ModItems.java|1160|1169|woodSpear|field|trueForce.polearms.item.ModItems|woodSpear|
+   Method Start: registerItems()V
+      @|trueForce\polearms\item\ModItems.java|1192|1205|registerItems|method|trueForce.polearms.item.ModItems|registerItems|()V
+      @|trueForce\polearms\item\ModItems.java|1222|1234|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\item\ModItems.java|1235|1243|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|trueForce\polearms\item\ModItems.java|1244|1252|itemPole|field|trueForce.polearms.item.ModItems|itemPole
+      @|trueForce\polearms\item\ModItems.java|1287|1299|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\item\ModItems.java|1300|1308|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|trueForce\polearms\item\ModItems.java|1309|1325|itemDiamondSpear|field|trueForce.polearms.item.ModItems|itemDiamondSpear
+      @|trueForce\polearms\item\ModItems.java|1330|1342|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\item\ModItems.java|1343|1351|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|trueForce\polearms\item\ModItems.java|1352|1365|itemGoldSpear|field|trueForce.polearms.item.ModItems|itemGoldSpear
+      @|trueForce\polearms\item\ModItems.java|1370|1382|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\item\ModItems.java|1383|1391|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|trueForce\polearms\item\ModItems.java|1392|1405|itemIronSpear|field|trueForce.polearms.item.ModItems|itemIronSpear
+      @|trueForce\polearms\item\ModItems.java|1410|1422|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\item\ModItems.java|1423|1431|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|trueForce\polearms\item\ModItems.java|1432|1446|itemStoneSpear|field|trueForce.polearms.item.ModItems|itemStoneSpear
+      @|trueForce\polearms\item\ModItems.java|1451|1463|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\item\ModItems.java|1464|1472|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|trueForce\polearms\item\ModItems.java|1473|1486|itemWoodSpear|field|trueForce.polearms.item.ModItems|itemWoodSpear
+      @|trueForce\polearms\item\ModItems.java|1502|1506|pole|field|trueForce.polearms.item.ModItems|pole
+      @|trueForce\polearms\item\ModItems.java|1513|1522|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\item\ModItems.java|1523|1531|itemPole|field|trueForce.polearms.item.ModItems|itemPole
+      @|trueForce\polearms\item\ModItems.java|1547|1559|diamondSpear|field|trueForce.polearms.item.ModItems|diamondSpear
+      @|trueForce\polearms\item\ModItems.java|1566|1575|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\item\ModItems.java|1576|1592|itemDiamondSpear|field|trueForce.polearms.item.ModItems|itemDiamondSpear
+      @|trueForce\polearms\item\ModItems.java|1597|1606|goldSpear|field|trueForce.polearms.item.ModItems|goldSpear
+      @|trueForce\polearms\item\ModItems.java|1613|1622|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\item\ModItems.java|1623|1636|itemGoldSpear|field|trueForce.polearms.item.ModItems|itemGoldSpear
+      @|trueForce\polearms\item\ModItems.java|1641|1650|ironSpear|field|trueForce.polearms.item.ModItems|ironSpear
+      @|trueForce\polearms\item\ModItems.java|1657|1666|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\item\ModItems.java|1667|1680|itemIronSpear|field|trueForce.polearms.item.ModItems|itemIronSpear
+      @|trueForce\polearms\item\ModItems.java|1685|1695|stoneSpear|field|trueForce.polearms.item.ModItems|stoneSpear
+      @|trueForce\polearms\item\ModItems.java|1702|1711|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\item\ModItems.java|1712|1726|itemStoneSpear|field|trueForce.polearms.item.ModItems|itemStoneSpear
+      @|trueForce\polearms\item\ModItems.java|1731|1740|woodSpear|field|trueForce.polearms.item.ModItems|woodSpear
+      @|trueForce\polearms\item\ModItems.java|1747|1756|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\item\ModItems.java|1757|1770|itemWoodSpear|field|trueForce.polearms.item.ModItems|itemWoodSpear
+   Method End: registerItems()V
+Class End  : trueForce.polearms.item.ModItems
+endProcessing "trueForce\polearms\item\ModItems.java"
+
+startProcessing "trueForce\polearms\item\PARecipes.java" md5: fff3677093c5171880afa55760bac9bb
+@|trueForce\polearms\item\PARecipes.java|8|31|trueForce.polearms.item|package|trueForce.polearms.item|(file)
+Class Start: trueForce.polearms.item.PARecipes
+   @|trueForce\polearms\item\PARecipes.java|264|273|PARecipes|class|trueForce.polearms.item.PARecipes
+   Method Start: registerCraftingRecipes()V
+      @|trueForce\polearms\item\PARecipes.java|300|323|registerCraftingRecipes|method|trueForce.polearms.item.PARecipes|registerCraftingRecipes|()V
+   Method End: registerCraftingRecipes()V
+Class End  : trueForce.polearms.item.PARecipes
+endProcessing "trueForce\polearms\item\PARecipes.java"
+
+startProcessing "trueForce\polearms\item\Pole.java" md5: e991fd7cfbb0a55a9557347b15ca3a20
+@|trueForce\polearms\item\Pole.java|8|31|trueForce.polearms.item|package|trueForce.polearms.item|(file)
+Class Start: trueForce.polearms.item.Pole
+   @|trueForce\polearms\item\Pole.java|127|131|Pole|class|trueForce.polearms.item.Pole
+   @|trueForce\polearms\item\Pole.java|140|144|Item|class|net.minecraft.item.Item
+   Method Start: Pole(Ljava/lang/String;)V
+      @|trueForce\polearms\item\Pole.java|163|167|name|param|trueForce.polearms.item.Pole|Pole|(Ljava/lang/String;)V|name|0
+      @|trueForce\polearms\item\Pole.java|151|155|Pole|method|trueForce.polearms.item.Pole|Pole|(Ljava/lang/String;)V
+      @|trueForce\polearms\item\Pole.java|156|162|String|class|java.lang.String
+      @|trueForce\polearms\item\Pole.java|179|193|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|trueForce\polearms\item\Pole.java|194|206|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|trueForce\polearms\item\Pole.java|207|216|MATERIALS|field|net.minecraft.creativetab.CreativeTabs|MATERIALS
+      @|trueForce\polearms\item\Pole.java|228|246|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|trueForce\polearms\item\Pole.java|247|251|name|param|trueForce.polearms.item.Pole|Pole|(Ljava/lang/String;)V|name|0
+      @|trueForce\polearms\item\Pole.java|262|277|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|trueForce\polearms\item\Pole.java|278|282|name|param|trueForce.polearms.item.Pole|Pole|(Ljava/lang/String;)V|name|0
+   Method End: Pole(Ljava/lang/String;)V
+Class End  : trueForce.polearms.item.Pole
+endProcessing "trueForce\polearms\item\Pole.java"
+
+startProcessing "trueForce\polearms\item\Spear.java" md5: 686fd2c9a242b58c30bf2932fbdfb402
+@|trueForce\polearms\item\Spear.java|8|31|trueForce.polearms.item|package|trueForce.polearms.item|(file)
+Class Start: trueForce.polearms.item.Spear
+   @|trueForce\polearms\item\Spear.java|132|137|Spear|class|trueForce.polearms.item.Spear
+   @|trueForce\polearms\item\Spear.java|146|155|ItemSword|class|net.minecraft.item.ItemSword
+   @|trueForce\polearms\item\Spear.java|167|181|IExtendedReach|class|trueForce.polearms.item.IExtendedReach
+   Method Start: Spear(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V
+      @|trueForce\polearms\item\Spear.java|205|209|name|param|trueForce.polearms.item.Spear|Spear|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V|name|0
+      @|trueForce\polearms\item\Spear.java|224|232|material|param|trueForce.polearms.item.Spear|Spear|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V|material|1
+      @|trueForce\polearms\item\Spear.java|192|197|Spear|method|trueForce.polearms.item.Spear|Spear|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V
+      @|trueForce\polearms\item\Spear.java|198|204|String|class|java.lang.String
+      @|trueForce\polearms\item\Spear.java|211|223|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|trueForce\polearms\item\Spear.java|244|252|material|param|trueForce.polearms.item.Spear|Spear|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V|material|1
+      @|trueForce\polearms\item\Spear.java|257|271|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|trueForce\polearms\item\Spear.java|272|284|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|trueForce\polearms\item\Spear.java|285|291|COMBAT|field|net.minecraft.creativetab.CreativeTabs|COMBAT
+      @|trueForce\polearms\item\Spear.java|297|315|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|trueForce\polearms\item\Spear.java|316|320|name|param|trueForce.polearms.item.Spear|Spear|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V|name|0
+      @|trueForce\polearms\item\Spear.java|325|340|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|trueForce\polearms\item\Spear.java|341|345|name|param|trueForce.polearms.item.Spear|Spear|(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V|name|0
+   Method End: Spear(Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V
+   Method Start: getReach()F
+      @|trueForce\polearms\item\Spear.java|353|361|Override|class|java.lang.Override
+      @|trueForce\polearms\item\Spear.java|376|384|getReach|method|trueForce.polearms.item.IExtendedReach|getReach|()F
+   Method End: getReach()F
+Class End  : trueForce.polearms.item.Spear
+endProcessing "trueForce\polearms\item\Spear.java"
+
+startProcessing "trueForce\polearms\network\MessageExtendedReachAttack.java" md5: f18a99df35eaffaeb6fd99d8c6bddfcd
+@|trueForce\polearms\network\MessageExtendedReachAttack.java|8|34|trueForce.polearms.network|package|trueForce.polearms.network|(file)
+Class Start: trueForce.polearms.network.MessageExtendedReachAttack
+   @|trueForce\polearms\network\MessageExtendedReachAttack.java|526|552|MessageExtendedReachAttack|class|trueForce.polearms.network.MessageExtendedReachAttack
+   @|trueForce\polearms\network\MessageExtendedReachAttack.java|564|572|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage
+   @|trueForce\polearms\network\MessageExtendedReachAttack.java|591|599|entityId|field|trueForce.polearms.network.MessageExtendedReachAttack|entityId|
+   Method Start: MessageExtendedReachAttack()V
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|614|640|MessageExtendedReachAttack|method|trueForce.polearms.network.MessageExtendedReachAttack|MessageExtendedReachAttack|()V
+   Method End: MessageExtendedReachAttack()V
+   Method Start: MessageExtendedReachAttack(I)V
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|731|742|parEntityId|param|trueForce.polearms.network.MessageExtendedReachAttack|MessageExtendedReachAttack|(I)V|parEntityId|0
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|700|726|MessageExtendedReachAttack|method|trueForce.polearms.network.MessageExtendedReachAttack|MessageExtendedReachAttack|(I)V
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|758|766|entityId|field|trueForce.polearms.network.MessageExtendedReachAttack|entityId
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|769|780|parEntityId|param|trueForce.polearms.network.MessageExtendedReachAttack|MessageExtendedReachAttack|(I)V|parEntityId|0
+   Method End: MessageExtendedReachAttack(I)V
+   Method Start: fromBytes(Lio/netty/buffer/ByteBuf;)V
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|892|895|buf|param|trueForce.polearms.network.MessageExtendedReachAttack|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|849|857|Override|class|java.lang.Override
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|874|883|fromBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|884|891|ByteBuf|class|io.netty.buffer.ByteBuf
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|911|919|entityId|field|trueForce.polearms.network.MessageExtendedReachAttack|entityId
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|922|934|ByteBufUtils|class|net.minecraftforge.fml.common.network.ByteBufUtils
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|935|945|readVarInt|method|net.minecraftforge.fml.common.network.ByteBufUtils|readVarInt|(Lio/netty/buffer/ByteBuf;I)I
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|946|949|buf|param|trueForce.polearms.network.MessageExtendedReachAttack|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+   Method End: fromBytes(Lio/netty/buffer/ByteBuf;)V
+   Method Start: toBytes(Lio/netty/buffer/ByteBuf;)V
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1061|1064|buf|param|trueForce.polearms.network.MessageExtendedReachAttack|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1020|1028|Override|class|java.lang.Override
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1045|1052|toBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1053|1060|ByteBuf|class|io.netty.buffer.ByteBuf
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1080|1092|ByteBufUtils|class|net.minecraftforge.fml.common.network.ByteBufUtils
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1093|1104|writeVarInt|method|net.minecraftforge.fml.common.network.ByteBufUtils|writeVarInt|(Lio/netty/buffer/ByteBuf;II)V
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1105|1108|buf|param|trueForce.polearms.network.MessageExtendedReachAttack|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1110|1118|entityId|field|trueForce.polearms.network.MessageExtendedReachAttack|entityId
+   Method End: toBytes(Lio/netty/buffer/ByteBuf;)V
+   Class Start: trueForce.polearms.network.MessageExtendedReachAttack.Handler
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1214|1221|Handler|class|trueForce.polearms.network.MessageExtendedReachAttack.Handler
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1233|1248|IMessageHandler|class|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1249|1275|MessageExtendedReachAttack|class|trueForce.polearms.network.MessageExtendedReachAttack
+      @|trueForce\polearms\network\MessageExtendedReachAttack.java|1289|1297|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage
+      Method Start: onMessage(LtrueForce/polearms/network/MessageExtendedReachAttack;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1390|1397|message|param|trueForce.polearms.network.MessageExtendedReachAttack.Handler|onMessage|(LtrueForce/polearms/network/MessageExtendedReachAttack;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1448|1451|ctx|param|trueForce.polearms.network.MessageExtendedReachAttack.Handler|onMessage|(LtrueForce/polearms/network/MessageExtendedReachAttack;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|ctx|1
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1314|1322|Override|class|java.lang.Override
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1338|1346|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1347|1356|onMessage|method|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler|onMessage|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1363|1389|MessageExtendedReachAttack|class|trueForce.polearms.network.MessageExtendedReachAttack
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1433|1447|MessageContext|class|net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1617|1631|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1644|1652|Polearms|class|trueForce.polearms.Polearms
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1653|1658|proxy|field|trueForce.polearms.Polearms|proxy
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1659|1685|getPlayerEntityFromContext|method|trueForce.polearms.proxy.CommonProxy|getPlayerEntityFromContext|(Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraft/entity/player/EntityPlayerMP;
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1686|1689|ctx|param|trueForce.polearms.network.MessageExtendedReachAttack.Handler|onMessage|(LtrueForce/polearms/network/MessageExtendedReachAttack;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|ctx|1
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1714|1723|getServer|method|net.minecraft.command.ICommandSender|getServer|()Lnet/minecraft/server/MinecraftServer;
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1726|1742|addScheduledTask|method|net.minecraft.util.IThreadListener|addScheduledTask|(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+         @|trueForce\polearms\network\MessageExtendedReachAttack.java|1768|1776|Runnable|class|java.lang.Runnable
+         Anon Class Start: trueForce.polearms.network.MessageExtendedReachAttack.Handler$1
+            Method Start: run()V
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|1826|1834|Override|class|java.lang.Override
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|1871|1874|run|method|java.lang.Runnable|run|()V
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|1931|1937|Entity|class|net.minecraft.entity.Entity
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|1960|1965|world|field|net.minecraft.entity.Entity|world
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|1966|1979|getEntityByID|method|net.minecraft.world.World|getEntityByID|(I)Lnet/minecraft/entity/Entity;
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|1980|1987|message|param|trueForce.polearms.network.MessageExtendedReachAttack.Handler|onMessage|(LtrueForce/polearms/network/MessageExtendedReachAttack;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|1988|1996|entityId|field|trueForce.polearms.network.MessageExtendedReachAttack|entityId
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|2298|2317|getHeldItemMainhand|method|net.minecraft.entity.EntityLivingBase|getHeldItemMainhand|()Lnet/minecraft/item/ItemStack;
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|2471|2490|getHeldItemMainhand|method|net.minecraft.entity.EntityLivingBase|getHeldItemMainhand|()Lnet/minecraft/item/ItemStack;
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|2493|2500|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|2550|2564|IExtendedReach|class|trueForce.polearms.item.IExtendedReach
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|2628|2642|IExtendedReach|class|trueForce.polearms.item.IExtendedReach
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|2709|2723|IExtendedReach|class|trueForce.polearms.item.IExtendedReach
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|2734|2753|getHeldItemMainhand|method|net.minecraft.entity.EntityLivingBase|getHeldItemMainhand|()Lnet/minecraft/item/ItemStack;
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|2805|2812|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|2878|2899|getDistanceSqToEntity|method|net.minecraft.entity.Entity|getDistanceSqToEntity|(Lnet/minecraft/entity/Entity;)D
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|3024|3032|getReach|method|trueForce.polearms.item.IExtendedReach|getReach|()F
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|3099|3107|getReach|method|trueForce.polearms.item.IExtendedReach|getReach|()F
+               @|trueForce\polearms\network\MessageExtendedReachAttack.java|3250|3283|attackTargetEntityWithCurrentItem|method|net.minecraft.entity.player.EntityPlayer|attackTargetEntityWithCurrentItem|(Lnet/minecraft/entity/Entity;)V
+            Method End: run()V
+         Anon Class End: trueForce.polearms.network.MessageExtendedReachAttack.Handler$1
+      Method End: onMessage(LtrueForce/polearms/network/MessageExtendedReachAttack;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+   Class End  : trueForce.polearms.network.MessageExtendedReachAttack.Handler
+Class End  : trueForce.polearms.network.MessageExtendedReachAttack
+endProcessing "trueForce\polearms\network\MessageExtendedReachAttack.java"
+
+startProcessing "trueForce\polearms\proxy\ClientProxy.java" md5: 7f63efce608f28b06e2196fc2762693d
+@|trueForce\polearms\proxy\ClientProxy.java|8|32|trueForce.polearms.proxy|package|trueForce.polearms.proxy|(file)
+Class Start: trueForce.polearms.proxy.ClientProxy
+   @|trueForce\polearms\proxy\ClientProxy.java|364|375|ClientProxy|class|trueForce.polearms.proxy.ClientProxy
+   @|trueForce\polearms\proxy\ClientProxy.java|384|395|CommonProxy|class|trueForce.polearms.proxy.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trueForce\polearms\proxy\ClientProxy.java|457|458|e|param|trueForce.polearms.proxy.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|trueForce\polearms\proxy\ClientProxy.java|401|409|Override|class|java.lang.Override
+      @|trueForce\polearms\proxy\ClientProxy.java|423|430|preInit|method|trueForce.polearms.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trueForce\polearms\proxy\ClientProxy.java|431|456|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|trueForce\polearms\proxy\ClientProxy.java|470|477|preInit|method|trueForce.polearms.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trueForce\polearms\proxy\ClientProxy.java|478|479|e|param|trueForce.polearms.proxy.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trueForce\polearms\proxy\ClientProxy.java|538|539|e|param|trueForce.polearms.proxy.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|trueForce\polearms\proxy\ClientProxy.java|488|496|Override|class|java.lang.Override
+      @|trueForce\polearms\proxy\ClientProxy.java|510|514|init|method|trueForce.polearms.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trueForce\polearms\proxy\ClientProxy.java|515|537|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|trueForce\polearms\proxy\ClientProxy.java|551|555|init|method|trueForce.polearms.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trueForce\polearms\proxy\ClientProxy.java|556|557|e|param|trueForce.polearms.proxy.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|trueForce\polearms\proxy\ClientProxy.java|568|586|ItemRenderRegister|class|trueForce.polearms.client.render.items.ItemRenderRegister
+      @|trueForce\polearms\proxy\ClientProxy.java|587|607|registerItemRenderer|method|trueForce.polearms.client.render.items.ItemRenderRegister|registerItemRenderer|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trueForce\polearms\proxy\ClientProxy.java|675|676|e|param|trueForce.polearms.proxy.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+      @|trueForce\polearms\proxy\ClientProxy.java|617|625|Override|class|java.lang.Override
+      @|trueForce\polearms\proxy\ClientProxy.java|639|647|postInit|method|trueForce.polearms.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trueForce\polearms\proxy\ClientProxy.java|648|674|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|trueForce\polearms\proxy\ClientProxy.java|688|696|postInit|method|trueForce.polearms.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trueForce\polearms\proxy\ClientProxy.java|697|698|e|param|trueForce.polearms.proxy.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : trueForce.polearms.proxy.ClientProxy
+endProcessing "trueForce\polearms\proxy\ClientProxy.java"
+
+startProcessing "trueForce\polearms\proxy\CommonProxy.java" md5: b321494c9cb7953cf9d23c00437bce2f
+@|trueForce\polearms\proxy\CommonProxy.java|8|32|trueForce.polearms.proxy|package|trueForce.polearms.proxy|(file)
+Class Start: trueForce.polearms.proxy.CommonProxy
+   @|trueForce\polearms\proxy\CommonProxy.java|1004|1015|CommonProxy|class|trueForce.polearms.proxy.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trueForce\polearms\proxy\CommonProxy.java|1065|1066|e|param|trueForce.polearms.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|trueForce\polearms\proxy\CommonProxy.java|1031|1038|preInit|method|trueForce.polearms.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trueForce\polearms\proxy\CommonProxy.java|1039|1064|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|trueForce\polearms\proxy\CommonProxy.java|1072|1080|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|1081|1094|registerItems|method|trueForce.polearms.item.ModItems|registerItems|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trueForce\polearms\proxy\CommonProxy.java|1145|1146|e|param|trueForce.polearms.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|trueForce\polearms\proxy\CommonProxy.java|1117|1121|init|method|trueForce.polearms.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trueForce\polearms\proxy\CommonProxy.java|1122|1144|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|trueForce\polearms\proxy\CommonProxy.java|1151|1173|registerNetworkChannel|method|trueForce.polearms.proxy.CommonProxy|registerNetworkChannel|()V
+      @|trueForce\polearms\proxy\CommonProxy.java|1178|1200|registerEventListeners|method|trueForce.polearms.proxy.CommonProxy|registerEventListeners|()V
+      @|trueForce\polearms\proxy\CommonProxy.java|1205|1221|registerCrafting|method|trueForce.polearms.proxy.CommonProxy|registerCrafting|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trueForce\polearms\proxy\CommonProxy.java|1281|1282|e|param|trueForce.polearms.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+      @|trueForce\polearms\proxy\CommonProxy.java|1245|1253|postInit|method|trueForce.polearms.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trueForce\polearms\proxy\CommonProxy.java|1254|1280|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Method Start: getPlayerEntityFromContext(Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraft/entity/player/EntityPlayerMP;
+      @|trueForce\polearms\proxy\CommonProxy.java|1358|1361|ctx|param|trueForce.polearms.proxy.CommonProxy|getPlayerEntityFromContext|(Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraft/entity/player/EntityPlayerMP;|ctx|0
+      @|trueForce\polearms\proxy\CommonProxy.java|1301|1315|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|trueForce\polearms\proxy\CommonProxy.java|1316|1342|getPlayerEntityFromContext|method|trueForce.polearms.proxy.CommonProxy|getPlayerEntityFromContext|(Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraft/entity/player/EntityPlayerMP;
+      @|trueForce\polearms\proxy\CommonProxy.java|1343|1357|MessageContext|class|net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+      @|trueForce\polearms\proxy\CommonProxy.java|1374|1377|ctx|param|trueForce.polearms.proxy.CommonProxy|getPlayerEntityFromContext|(Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraft/entity/player/EntityPlayerMP;|ctx|0
+      @|trueForce\polearms\proxy\CommonProxy.java|1378|1394|getServerHandler|method|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|getServerHandler|()Lnet/minecraft/network/NetHandlerPlayServer;
+      @|trueForce\polearms\proxy\CommonProxy.java|1397|1409|playerEntity|field|net.minecraft.network.NetHandlerPlayServer|playerEntity
+   Method End: getPlayerEntityFromContext(Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraft/entity/player/EntityPlayerMP;
+   Method Start: registerEventListeners()V
+      @|trueForce\polearms\proxy\CommonProxy.java|1515|1537|registerEventListeners|method|trueForce.polearms.proxy.CommonProxy|registerEventListeners|()V
+      @|trueForce\polearms\proxy\CommonProxy.java|1556|1564|Polearms|class|trueForce.polearms.Polearms
+      @|trueForce\polearms\proxy\CommonProxy.java|1565|1571|logger|field|trueForce.polearms.Polearms|logger
+      @|trueForce\polearms\proxy\CommonProxy.java|1572|1576|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|trueForce\polearms\proxy\CommonProxy.java|1611|1625|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|trueForce\polearms\proxy\CommonProxy.java|1626|1635|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|trueForce\polearms\proxy\CommonProxy.java|1636|1644|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|trueForce\polearms\proxy\CommonProxy.java|1649|1661|EventHandler|class|trueForce.polearms.EventHandler
+      @|trueForce\polearms\proxy\CommonProxy.java|1727|1741|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|trueForce\polearms\proxy\CommonProxy.java|1742|1751|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|trueForce\polearms\proxy\CommonProxy.java|1752|1760|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|trueForce\polearms\proxy\CommonProxy.java|1765|1777|EventHandler|class|trueForce.polearms.EventHandler
+   Method End: registerEventListeners()V
+   Method Start: registerNetworkChannel()V
+      @|trueForce\polearms\proxy\CommonProxy.java|1801|1823|registerNetworkChannel|method|trueForce.polearms.proxy.CommonProxy|registerNetworkChannel|()V
+      @|trueForce\polearms\proxy\CommonProxy.java|1830|1838|Polearms|class|trueForce.polearms.Polearms
+      @|trueForce\polearms\proxy\CommonProxy.java|1839|1846|network|field|trueForce.polearms.Polearms|network
+      @|trueForce\polearms\proxy\CommonProxy.java|1849|1864|NetworkRegistry|class|net.minecraftforge.fml.common.network.NetworkRegistry
+      @|trueForce\polearms\proxy\CommonProxy.java|1865|1873|INSTANCE|field|net.minecraftforge.fml.common.network.NetworkRegistry|INSTANCE
+      @|trueForce\polearms\proxy\CommonProxy.java|1874|1890|newSimpleChannel|method|net.minecraftforge.fml.common.network.NetworkRegistry|newSimpleChannel|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;
+      @|trueForce\polearms\proxy\CommonProxy.java|1891|1899|Polearms|class|trueForce.polearms.Polearms
+      @|trueForce\polearms\proxy\CommonProxy.java|1900|1920|NETWORK_CHANNEL_NAME|field|trueForce.polearms.Polearms|NETWORK_CHANNEL_NAME
+      @|trueForce\polearms\proxy\CommonProxy.java|1990|1998|Polearms|class|trueForce.polearms.Polearms
+      @|trueForce\polearms\proxy\CommonProxy.java|1999|2006|network|field|trueForce.polearms.Polearms|network
+      @|trueForce\polearms\proxy\CommonProxy.java|2007|2022|registerMessage|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|registerMessage|(Ljava/lang/Class;Ljava/lang/Class;ILnet/minecraftforge/fml/relauncher/Side;)V
+      @|trueForce\polearms\proxy\CommonProxy.java|2023|2057|MessageExtendedReachAttack.Handler|class|trueForce.polearms.network.MessageExtendedReachAttack.Handler
+      @|trueForce\polearms\proxy\CommonProxy.java|2065|2091|MessageExtendedReachAttack|class|trueForce.polearms.network.MessageExtendedReachAttack
+      @|trueForce\polearms\proxy\CommonProxy.java|2111|2115|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|trueForce\polearms\proxy\CommonProxy.java|2116|2122|SERVER|field|net.minecraftforge.fml.relauncher.Side|SERVER
+   Method End: registerNetworkChannel()V
+   Method Start: registerCrafting()V
+      @|trueForce\polearms\proxy\CommonProxy.java|2144|2160|registerCrafting|method|trueForce.polearms.proxy.CommonProxy|registerCrafting|()V
+      @|trueForce\polearms\proxy\CommonProxy.java|2167|2179|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\proxy\CommonProxy.java|2180|2189|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/crafting/IRecipe;)V
+      @|trueForce\polearms\proxy\CommonProxy.java|2194|2209|ShapedOreRecipe|class|net.minecraftforge.oredict.ShapedOreRecipe
+      @|trueForce\polearms\proxy\CommonProxy.java|2210|2218|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|2219|2223|pole|field|trueForce.polearms.item.ModItems|pole
+      @|trueForce\polearms\proxy\CommonProxy.java|2240|2245|Items|class|net.minecraft.init.Items
+      @|trueForce\polearms\proxy\CommonProxy.java|2246|2251|STICK|field|net.minecraft.init.Items|STICK
+      @|trueForce\polearms\proxy\CommonProxy.java|2257|2269|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\proxy\CommonProxy.java|2270|2285|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|trueForce\polearms\proxy\CommonProxy.java|2286|2294|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|2295|2304|woodSpear|field|trueForce.polearms.item.ModItems|woodSpear
+      @|trueForce\polearms\proxy\CommonProxy.java|2347|2356|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\proxy\CommonProxy.java|2357|2362|Items|class|net.minecraft.init.Items
+      @|trueForce\polearms\proxy\CommonProxy.java|2363|2375|WOODEN_SWORD|field|net.minecraft.init.Items|WOODEN_SWORD
+      @|trueForce\polearms\proxy\CommonProxy.java|2387|2395|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|2396|2400|pole|field|trueForce.polearms.item.ModItems|pole
+      @|trueForce\polearms\proxy\CommonProxy.java|2405|2417|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\proxy\CommonProxy.java|2418|2433|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|trueForce\polearms\proxy\CommonProxy.java|2434|2442|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|2443|2453|stoneSpear|field|trueForce.polearms.item.ModItems|stoneSpear
+      @|trueForce\polearms\proxy\CommonProxy.java|2496|2505|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\proxy\CommonProxy.java|2506|2511|Items|class|net.minecraft.init.Items
+      @|trueForce\polearms\proxy\CommonProxy.java|2512|2523|STONE_SWORD|field|net.minecraft.init.Items|STONE_SWORD
+      @|trueForce\polearms\proxy\CommonProxy.java|2535|2543|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|2544|2548|pole|field|trueForce.polearms.item.ModItems|pole
+      @|trueForce\polearms\proxy\CommonProxy.java|2553|2565|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\proxy\CommonProxy.java|2566|2581|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|trueForce\polearms\proxy\CommonProxy.java|2582|2590|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|2591|2600|ironSpear|field|trueForce.polearms.item.ModItems|ironSpear
+      @|trueForce\polearms\proxy\CommonProxy.java|2643|2652|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\proxy\CommonProxy.java|2653|2658|Items|class|net.minecraft.init.Items
+      @|trueForce\polearms\proxy\CommonProxy.java|2659|2669|IRON_SWORD|field|net.minecraft.init.Items|IRON_SWORD
+      @|trueForce\polearms\proxy\CommonProxy.java|2681|2689|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|2690|2694|pole|field|trueForce.polearms.item.ModItems|pole
+      @|trueForce\polearms\proxy\CommonProxy.java|2699|2711|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\proxy\CommonProxy.java|2712|2727|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|trueForce\polearms\proxy\CommonProxy.java|2728|2736|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|2737|2746|goldSpear|field|trueForce.polearms.item.ModItems|goldSpear
+      @|trueForce\polearms\proxy\CommonProxy.java|2789|2798|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\proxy\CommonProxy.java|2799|2804|Items|class|net.minecraft.init.Items
+      @|trueForce\polearms\proxy\CommonProxy.java|2805|2817|GOLDEN_SWORD|field|net.minecraft.init.Items|GOLDEN_SWORD
+      @|trueForce\polearms\proxy\CommonProxy.java|2829|2837|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|2838|2842|pole|field|trueForce.polearms.item.ModItems|pole
+      @|trueForce\polearms\proxy\CommonProxy.java|2847|2859|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trueForce\polearms\proxy\CommonProxy.java|2860|2875|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|trueForce\polearms\proxy\CommonProxy.java|2876|2884|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|2885|2897|diamondSpear|field|trueForce.polearms.item.ModItems|diamondSpear
+      @|trueForce\polearms\proxy\CommonProxy.java|2940|2949|ItemStack|class|net.minecraft.item.ItemStack
+      @|trueForce\polearms\proxy\CommonProxy.java|2950|2955|Items|class|net.minecraft.init.Items
+      @|trueForce\polearms\proxy\CommonProxy.java|2956|2969|DIAMOND_SWORD|field|net.minecraft.init.Items|DIAMOND_SWORD
+      @|trueForce\polearms\proxy\CommonProxy.java|2981|2989|ModItems|class|trueForce.polearms.item.ModItems
+      @|trueForce\polearms\proxy\CommonProxy.java|2990|2994|pole|field|trueForce.polearms.item.ModItems|pole
+   Method End: registerCrafting()V
+Class End  : trueForce.polearms.proxy.CommonProxy
+endProcessing "trueForce\polearms\proxy\CommonProxy.java"
+
