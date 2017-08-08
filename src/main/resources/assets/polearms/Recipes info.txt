@@ -1,0 +1,3 @@
+Recipe json names MUST match the item name in your code, NOT the unlocalized name.
+
+Example. All spear recipe jsons are named the item. itemDiamondSpear, as that is what it is called in my code. The unlocalized name for that is diamond_spear. 
